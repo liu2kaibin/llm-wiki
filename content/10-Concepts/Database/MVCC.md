@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: database
 tags:
-  - llm
+  - database
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# 长上下文
+# MVCC
 
 > [!abstract] TL;DR 一句话直觉
-> 把有效上下文从 2K 推到百万级 token 的一组技术：RoPE 外推、注意力稀疏化、KV 压缩等。
+> 每行保留多版本快照，读写互不阻塞——PostgreSQL 与 InnoDB 实现高并发的基石。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[Positional Encoding 与 RoPE]]、[[KV-Cache]]、[[RAG]]
+- **相关**：[[隔离级别]]、[[事务与 ACID]]
 - **对比**：
 
 ## 常见误解

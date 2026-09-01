@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# LoRA 与 PEFT
+# Tokenizer 与 BPE
 
 > [!abstract] TL;DR 一句话直觉
-> 冻结原模型，只训练注入的低秩小矩阵，用千分之一的可训练参数达到接近全量微调的效果。
+> 把原始文本切成 token 的有损压缩接口；BPE 从字符出发迭代合并高频对，是当前主流算法。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[SFT]]、[[量化]]
+- **相关**：[[Embedding]]
 - **对比**：
 
 ## 常见误解

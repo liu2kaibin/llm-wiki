@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# 思维链
+# Positional Encoding 与 RoPE
 
 > [!abstract] TL;DR 一句话直觉
-> 让模型把中间推理步骤写出来再给答案，显著提升数学与逻辑任务表现，是推理模型的雏形。
+> 注意力本身不知道词序，需要显式注入位置信息；RoPE 用旋转矩阵把相对位置编码进注意力分数。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[涌现能力]]、[[Agent 与工具调用]]
+- **相关**：[[Transformer]]、[[长上下文]]
 - **对比**：
 
 ## 常见误解

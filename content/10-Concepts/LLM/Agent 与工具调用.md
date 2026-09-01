@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# 预训练
+# Agent 与工具调用
 
 > [!abstract] TL;DR 一句话直觉
-> 在海量无标注文本上做下一词预测，逼模型压缩世界知识，得到基座模型（base model）。
+> 让模型规划多步行动、调用外部工具（搜索、代码、API）并根据反馈迭代——从回答者变执行者。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[SFT]]、[[Scaling Laws]]
+- **相关**：[[思维链]]、[[RAG]]
 - **对比**：
 
 ## 常见误解

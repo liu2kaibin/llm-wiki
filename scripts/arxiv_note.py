@@ -3,11 +3,12 @@
 """arXiv → Obsidian 论文笔记生成器。
 
 用法:
-    python arxiv_note.py 1706.03762 [more_id ...]
+    python arxiv_note.py 1706.03762 [more_id ...] [domain=<领域>]
 
 仅用标准库，无第三方依赖。从 arXiv API 抓取元数据，
 在 content/20-Papers/ 生成论文卡（标题作为文件名）。
 已存在同名文件时跳过，避免覆盖。
+domain 参数可选（如 domain=database），默认留空。
 """
 import re
 import sys
@@ -62,6 +63,7 @@ def parse(xml_text: str) -> list[dict]:
 
 TPL = """---
 type: paper
+domain: "{domain}"
 tags:
   - paper
 status: seed
@@ -105,7 +107,13 @@ def main() -> None:
     if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(1)
-    ids = [re.sub(r"v\d+$", "", i) for i in sys.argv[1:]]
+    domain = ""
+    ids = []
+    for a in sys.argv[1:]:
+        if a.startswith("domain="):
+            domain = a.split("=", 1)[1].strip().lower()
+        else:
+            ids.append(re.sub(r"v\d+$", "", a))
     xml_text = fetch(ids)
     papers = parse(xml_text)
     if not papers:
@@ -121,6 +129,7 @@ def main() -> None:
         author_list = "、".join(p["authors"])
         content = TPL.format(
             created=created,
+            domain=domain,
             authors=", ".join(f'"{a}"' for a in p["authors"]),
             author_str=author_list,
             year=p["year"],

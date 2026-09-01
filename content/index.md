@@ -12,9 +12,9 @@ tags:
 ## 📇 概念卡（10-Concepts）
 
 ```dataview
-TABLE WITHOUT ID file.link AS "概念", status AS "状态", created AS "创建"
+TABLE WITHOUT ID file.link AS "概念", domain AS "领域", status AS "状态", created AS "创建"
 FROM "10-Concepts"
-SORT status ASC, file.name ASC
+SORT domain ASC, status ASC, file.name ASC
 ```
 
 ## 📄 论文笔记（20-Papers）

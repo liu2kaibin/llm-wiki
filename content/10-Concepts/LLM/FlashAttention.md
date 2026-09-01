@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# 量化
+# FlashAttention
 
 > [!abstract] TL;DR 一句话直觉
-> 把 FP16 权重压到 INT8/INT4 甚至更低，体积和显存占用骤降，代价是少量精度损失。
+> 不改变数学、只重排计算的精确注意力加速：分块计算 + 减少 HBM 读写，训练推理双双提速。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[LoRA 与 PEFT]]、[[KV-Cache]]
+- **相关**：[[Multi-Head Attention]]、[[MoE]]
 - **对比**：
 
 ## 常见误解

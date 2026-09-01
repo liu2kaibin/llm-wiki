@@ -80,8 +80,10 @@ content/
 ├── index.md         网站首页 + Obsidian 总索引（Dataview 自动表）
 ├── WORKFLOW.md      工作流规则（主循环/纪律）
 ├── 00-Inbox/        剪藏与速记；72h 清空；不上网
-├── 10-Concepts/     概念卡（一张卡一个概念）
-├── 20-Papers/       论文卡（脚本生成骨架）
+├── 10-Concepts/     概念卡，按领域分子目录（一张卡一个概念）
+│   ├── LLM/         人工智能/大模型领域
+│   └── Database/    数据库领域（卡片模板会按所在子目录自动填 domain）
+├── 20-Papers/       论文卡（脚本生成骨架，可带 domain= 参数）
 ├── 30-Models/       模型档案
 ├── 50-Essays/       原创长文（网站的核心价值）
 ├── 60-Log/          学习日志，不上网（本手册也在这）

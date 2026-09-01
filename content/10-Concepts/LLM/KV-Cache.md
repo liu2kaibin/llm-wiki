@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# Self-Attention
+# KV-Cache
 
 > [!abstract] TL;DR 一句话直觉
-> 序列中每个位置直接与所有位置计算相关性并加权聚合信息，一步打通任意距离的依赖。
+> 自回归生成时缓存历史 token 的 Key/Value，每步只算新 token，用显存换速度。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[Transformer]]、[[KV-Cache]]、[[Multi-Head Attention]]
+- **相关**：[[Self-Attention]]、[[量化]]、[[长上下文]]
 - **对比**：
 
 ## 常见误解

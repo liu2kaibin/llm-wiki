@@ -11,14 +11,10 @@
             "id": "e825d323bd46c7b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-Concepts/量化.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "量化"
+              "title": "新标签页"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-Concepts/量化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-Concepts/量化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -194,6 +188,30 @@
   },
   "active": "a8767507d358a885",
   "lastOpenFiles": [
+    "10-Concepts/LLM/预训练.md",
+    "10-Concepts/LLM/长上下文.md",
+    "10-Concepts/LLM/量化.md",
+    "10-Concepts/LLM/采样策略.md",
+    "10-Concepts/LLM/涌现能力.md",
+    "10-Concepts/LLM/思维链.md",
+    "10-Concepts/LLM/Transformer.md",
+    "10-Concepts/LLM/Tokenizer 与 BPE.md",
+    "10-Concepts/Database",
+    "10-Concepts/LLM/SFT.md",
+    "10-Concepts/LLM/Self-Attention.md",
+    "10-Concepts/LLM/Embedding.md",
+    "10-Concepts/LLM/Scaling Laws.md",
+    "10-Concepts/LLM/RLHF.md",
+    "10-Concepts/LLM/RAG.md",
+    "10-Concepts/LLM/Positional Encoding 与 RoPE.md",
+    "10-Concepts/LLM/Multi-Head Attention.md",
+    "10-Concepts/LLM/MoE.md",
+    "10-Concepts/LLM/LoRA 与 PEFT.md",
+    "10-Concepts/LLM/KV-Cache.md",
+    "10-Concepts/LLM/FlashAttention.md",
+    "10-Concepts/LLM/DPO.md",
+    "10-Concepts/LLM/Agent 与工具调用.md",
+    "10-Concepts/LLM",
     "60-Log/FULL PICTURE 使用手册.md",
     "10-Concepts/采样策略.md"
   ]

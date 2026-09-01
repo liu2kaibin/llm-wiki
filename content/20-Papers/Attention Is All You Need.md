@@ -1,5 +1,6 @@
 ---
 type: paper
+domain: llm
 tags:
   - paper
 status: seed

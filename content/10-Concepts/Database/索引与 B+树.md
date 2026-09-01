@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: database
 tags:
-  - llm
+  - database
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# Positional Encoding 与 RoPE
+# 索引与 B+树
 
 > [!abstract] TL;DR 一句话直觉
-> 注意力本身不知道词序，需要显式注入位置信息；RoPE 用旋转矩阵把相对位置编码进注意力分数。
+> B+树把随机 IO 压成树高≤4 的短路径，叶子串成有序链表支撑范围扫描。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[Transformer]]、[[长上下文]]
+- **相关**：[[LSM-Tree]]、[[查询优化器]]
 - **对比**：
 
 ## 常见误解

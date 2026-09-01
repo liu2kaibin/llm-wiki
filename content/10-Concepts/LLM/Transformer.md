@@ -1,5 +1,6 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed

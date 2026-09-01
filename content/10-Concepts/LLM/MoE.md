@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# FlashAttention
+# MoE
 
 > [!abstract] TL;DR 一句话直觉
-> 不改变数学、只重排计算的精确注意力加速：分块计算 + 减少 HBM 读写，训练推理双双提速。
+> 把 FFN 拆成多个专家，每个 token 只激活少数几个，参数量巨大而计算量可控。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[Multi-Head Attention]]、[[MoE]]
+- **相关**：[[Scaling Laws]]、[[FlashAttention]]
 - **对比**：
 
 ## 常见误解

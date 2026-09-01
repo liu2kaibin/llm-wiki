@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: llm
 tags:
   - llm
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# Multi-Head Attention
+# Embedding
 
 > [!abstract] TL;DR 一句话直觉
-> 并行运行多组独立的注意力头，让模型在不同子空间分别关注语法、语义、位置等不同模式。
+> 把离散 token 映射为稠密向量，使语义相近的 token 在向量空间中彼此靠近。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[Self-Attention]]、[[FlashAttention]]
+- **相关**：[[Tokenizer 与 BPE]]、[[RAG]]
 - **对比**：
 
 ## 常见误解

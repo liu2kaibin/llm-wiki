@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: database
 tags:
-  - llm
+  - database
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# Agent 与工具调用
+# WAL
 
 > [!abstract] TL;DR 一句话直觉
-> 让模型规划多步行动、调用外部工具（搜索、代码、API）并根据反馈迭代——从回答者变执行者。
+> 先写日志再改数据页：崩溃后重放日志即恢复，顺带把随机写变成顺序写。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[思维链]]、[[RAG]]
+- **相关**：[[事务与 ACID]]、[[Buffer Pool]]
 - **对比**：
 
 ## 常见误解

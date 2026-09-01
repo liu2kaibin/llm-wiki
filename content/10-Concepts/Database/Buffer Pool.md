@@ -1,15 +1,16 @@
 ---
 type: concept
+domain: database
 tags:
-  - llm
+  - database
 status: seed
 created: 2026-09-01
 source: ""
 ---
-# RAG
+# Buffer Pool
 
 > [!abstract] TL;DR 一句话直觉
-> 先检索外部知识库，把相关片段塞进上下文再生成——让模型开卷考试而非死记硬背。
+> 内存缓存数据页、后台刷脏；数据库调优的一半在页命中率与刷脏策略。
 
 ## 它解决什么问题
 
@@ -19,7 +20,7 @@ source: ""
 
 ## 关系
 - **上位概念**：
-- **相关**：[[Embedding]]、[[长上下文]]
+- **相关**：[[WAL]]、[[索引与 B+树]]
 - **对比**：
 
 ## 常见误解
