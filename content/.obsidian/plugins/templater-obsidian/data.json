@@ -1,0 +1,16 @@
+{
+  "templates_folder": "90-Templates",
+  "templates_pairs": [["", ""]],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "enable_folder_templates": true,
+  "folder_templates": [
+    { "folder": "10-Concepts", "template": "90-Templates/概念卡模板.md" },
+    { "folder": "20-Papers", "template": "90-Templates/论文卡模板.md" },
+    { "folder": "30-Models", "template": "90-Templates/模型档案模板.md" },
+    { "folder": "50-Essays", "template": "90-Templates/长文模板.md" },
+    { "folder": "60-Log", "template": "90-Templates/学习日志模板.md" }
+  ],
+  "syntax_highlighting": true
+}

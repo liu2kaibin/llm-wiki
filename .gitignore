@@ -12,3 +12,10 @@ __pycache__/
 # Node（未来接 Quartz 用）
 node_modules/
 .quartz-cache/
+
+# Quartz v5
+public
+.quartz/
+tsconfig.tsbuildinfo
+.turbo/
+quartz/cli/tui/dist/
