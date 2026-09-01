@@ -1,0 +1,14 @@
+# Obsidian 工作区状态（不同步，其余 .obsidian 配置同步）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Node（未来接 Quartz 用）
+node_modules/
+.quartz-cache/
