@@ -1,5 +1,6 @@
 ---
 type: moc
+title: 🧠 LLM Wiki
 tags:
   - moc
 ---
