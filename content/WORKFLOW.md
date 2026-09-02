@@ -29,12 +29,18 @@ tags:
 
 | 通道 | 工具 | 落点 |
 | ---- | ---- | ---- |
-| 网页 | Obsidian Web Clipper（浏览器扩展） | 00-Inbox |
-| 论文 | `python scripts/arxiv_note.py <arxiv_id>` | 20-Papers |
-| 视频 | YouTube（Karpathy Zero to Hero 等），记时间戳笔记 | 00-Inbox |
-| 订阅 | Karpathy 博客 / Lil'Log / Jay Alammar / Ahead of AI / HF Blog | 00-Inbox |
+| 网页 | Obsidian Web Clipper（浏览器扩展） | `Clippings/`（默认目录；仅本地，不入仓库不上网） |
+| 论文 | `python scripts/arxiv_note.py <arxiv_id> [domain=xx]` | 20-Papers |
+| 视频 | YouTube（Karpathy Zero to Hero 等），记时间戳笔记 | Clippings/ |
+| 订阅 | Karpathy 博客 / Lil'Log / Jay Alammar / Ahead of AI / HF Blog | Clippings/ |
 
 ## 每周节奏
 
 - 周中：随手剪藏 + 每天 1 张概念卡（15 分钟够）
-- 周末：清空 Inbox + 串一篇长文草稿
+- 周末：清空剪藏 + 串一篇长文草稿
+
+## 内外有别（红线）
+
+1. 公司内网页面（SharePoint 等）的剪藏**只存在本地 `Clippings/`**，已被 git 忽略、不会进入公开仓库和网站；
+2. 内部资料只能提炼成**你自己的话**的卡片，且出处写「内部资料」，不带内网链接；
+3. 拿不准是否涉密 → 先放 `60-Log/`（永不发布），确认后再挪进领域目录。

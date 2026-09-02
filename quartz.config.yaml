@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: LLM Wiki
+  pageTitle: 个人知识库
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -15,6 +15,7 @@ configuration:
     - 00-Inbox/**
     - 60-Log/**
     - 90-Templates/**
+    - Clippings/**
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

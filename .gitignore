@@ -5,6 +5,9 @@
 .trash/
 .DS_Store
 
+# 网页剪藏：仅本地，不入公开仓库（内网/版权内容保护）
+Clippings/
+
 # Python
 __pycache__/
 *.pyc

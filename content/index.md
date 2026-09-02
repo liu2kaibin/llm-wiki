@@ -1,10 +1,10 @@
 ---
 type: moc
-title: 🧠 LLM Wiki
+title: 🧠 个人知识库
 tags:
   - moc
 ---
-# 🧠 LLM Wiki
+# 🧠 个人知识库
 
 > 以 [Karpathy](https://karpathy.bearblog.dev/) 的写作为标杆：直觉优先、亲手验证、长期沉淀。
 > 工作流见 [[WORKFLOW]]。

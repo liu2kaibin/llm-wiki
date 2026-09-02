@@ -37,8 +37,8 @@ tags:
 
 | # | 方式 | 操作 | 落点 | 是否上网 |
 |---|------|------|------|---------|
-| 1 | 手写概念卡 | 在 `10-Concepts` 新建笔记，模板自动套 | 10-Concepts | ✅ |
-| 2 | 网页剪藏 | 浏览器点 Obsidian 图标 → Save | 00-Inbox | ❌ |
+| 1 | 手写概念卡 | 在 `10-Concepts/<领域>/` 新建笔记，模板自动套 | 10-Concepts | ✅ |
+| 2 | 网页剪藏 | 浏览器点 Obsidian 图标 → Save | `Clippings/`（仅本地） | ❌ |
 | 3 | 论文卡片 | `python scripts/arxiv_note.py <arxiv_id>` | 20-Papers | ✅（骨架） |
 | 4 | 模型档案 | 在 `30-Models` 新建笔记 | 30-Models | ✅ |
 | 5 | 学习日志 | 在 `60-Log` 写每日流水 | 60-Log | ❌ |
@@ -79,7 +79,8 @@ tags:
 content/
 ├── index.md         网站首页 + Obsidian 总索引（Dataview 自动表）
 ├── WORKFLOW.md      工作流规则（主循环/纪律）
-├── 00-Inbox/        剪藏与速记；72h 清空；不上网
+├── 00-Inbox/        速记素材；72h 清空；不上网
+├── Clippings/       Web Clipper 默认落点；仅本地（git 已忽略），不上网
 ├── 10-Concepts/     概念卡，按领域分子目录（一张卡一个概念）
 │   ├── LLM/         人工智能/大模型领域
 │   └── Database/    数据库领域（卡片模板会按所在子目录自动填 domain）
