@@ -10,8 +10,8 @@ source: "https://oracle-base.com/articles/23/ai-vector-search-23"
 ---
 # Oracle AI Vector Search
 
-> [!abstract] TL;DR 一句话直觉
-> Oracle 23ai 把向量变成一等公民：`VECTOR` 直接当列类型，SQL 里就能做语义相似度检索——不用外挂向量库，业务数据和语义向量同库同事务。【读一遍，改成你的话】
+> [!abstract] Oracle 26ai 把向量变成一等公民：`VECTOR` 直接当列类型，SQL 里就能做语义相似度检索——不用外挂向量库，业务数据和语义向量同库同事务
+
 
 ## 它解决什么问题
 - 传统做法：结构化数据在关系库、语义向量在专用向量库（Milvus/pgvector 等），两套系统双写、JOIN 靠应用层。
