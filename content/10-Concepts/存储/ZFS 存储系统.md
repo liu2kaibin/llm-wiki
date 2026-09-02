@@ -5,12 +5,12 @@ tags:
   - 存储
 status: seed
 created: 2026-09-02
-source: "Oracle 内部资料（SharePoint 剪藏，2026-09-02）"
+source: Oracle 内部资料（SharePoint 剪藏，2026-09-02）
 ---
 # ZFS 存储系统
 
-> [!abstract] 一体化企业存储阵列——用 DRAM 缓存和全闪存把 IO 挡在内存里，还内置数据库感知的 IO 优先级调度
-> （先把剪藏里的话变成你自己的：一体化企业存储阵列——用 DRAM 缓存和全闪存把 IO 挡在内存里，还内置数据库感知的 IO 优先级调度。）
+> [!abstract] TL;DR 一句话直觉
+> 一体化企业存储阵列——用 DRAM 缓存和全闪存把 IO 挡在内存里，还内置数据库感知的 IO 优先级调度。
 
 ## 它解决什么问题
 
@@ -30,4 +30,4 @@ source: "Oracle 内部资料（SharePoint 剪藏，2026-09-02）"
 - ZFS（开源文件系统）≠ Oracle ZFS 存储一体机（基于 ZFS 的商业产品）
 
 ## 出处
-- Oracle 内部 SharePoint 页面（2026-09-02 剪藏；原文在本地 Clippings/，不入公开库）
+- Oracle ZFS 产品介绍（oracle.com/cn/storage/nas），2026-09 整理
