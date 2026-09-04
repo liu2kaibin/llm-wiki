@@ -27,3 +27,4 @@ source: ""
 
 ## 出处
 - 
+- [一口气搞懂 Transformer：注意力、QKV、残差连接全讲透（@xuanyuanzhifeng）](https://x.com/xuanyuanzhifeng/status/2095044737531306357) — 演进脉络：N-gram→词向量→RNN→LSTM→Transformer；注意力一次性解决「远程信息交换」与「顺序计算低效」两大痛点
