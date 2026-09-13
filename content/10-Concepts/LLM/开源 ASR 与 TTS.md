@@ -22,6 +22,11 @@ source: "https://x.com/wquguru/status/2096013016429211791"
 - 运行门槛：16GB 内存以上的 MacBook 即可
 - 背景：HuggingFace 被英伟达以 130 亿美元收购，开源模型仓库价值重估
 
+### 声音复刻（OmniVoice，2026-09 新增）
+- 开源项目 [OmniVoice](https://github.com/k2-fsa/OmniVoice)（GitHub 近 1 万 Star）：一段录音即可复刻声纹，无需提前训练
+- 支持 600+ 语言跨语种输出，年龄/音高/方言可调；生成速度比实时快 40 倍
+- 用途：视频配音、多语言内容；注意声纹克隆的伦理与授权问题
+
 ## 关系
 - **相关**：[[量化]]（本地可跑的前提）、[[预训练]]（基座+微调的开源生态）
 - **应用**：会议纪要（配合 Whisper 类工具）、离线语音助手、隐私敏感场景
@@ -31,3 +36,4 @@ source: "https://x.com/wquguru/status/2096013016429211791"
 
 ## 出处
 - [图解 ASR 和 TTS：HuggingFace 开源模型测评（@wquguru）](https://x.com/wquguru/status/2096013016429211791)
+- [OmniVoice 开源声音复刻（@taozi0929）](https://x.com/taozi0929/status/2098371224006951151)，2026-09
