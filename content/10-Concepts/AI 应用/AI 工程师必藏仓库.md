@@ -32,8 +32,12 @@ source: "https://x.com/BharukaShraddha/status/2096100000000000"
 ## 关系
 - **相关**：[[RAG]]、[[量化]]、[[Agent Skill]]、[[AI 产品学习路径]]（姊妹资源卡）
 
+### 补充：搞钱链路七件套（2026-09-25 并入）
+资源地图 [awesome](https://github.com/sindresorhus/awesome)（50.9万★）｜数据源 [public-apis](https://github.com/public-apis/public-apis)（48.2万★）｜抓取 [Scrapling](https://github.com/D4Vinci/Scrapling)（8.3万★）｜白嫖额度 [free-for-dev](https://github.com/ripienaar/free-for-dev)（13.8万★）｜本地推理 [Ollama](https://github.com/ollama/ollama)（18.1万★）｜本地前端 [Open WebUI](https://github.com/open-webui/open-webui)（15.2万★）｜应用平台 [Dify](https://github.com/langgenius/dify)（15.7万★）——覆盖找资源→找 API→抓数据→跑模型→搭 Agent 全链路。
+
 ## 常见误解
 - 【改成你的话】
 
 ## 出处
 - [10 个 AI 工程师必藏仓库（@BharukaShraddha）](https://x.com/BharukaShraddha/status/2096100000000000)
+- [7 个搞钱工具仓库（@goan999999）](https://x.com/goan999999/status/2103062519900229704)，2026-09
